@@ -1,12 +1,9 @@
 import {
   mobile,
   backend,
-  creator,
+  designer,
   web,
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -14,16 +11,17 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  ross,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-} from "../assets";
+  medium,
+  dotnet,
+  github,
+  csharp,
+  sass,
+  astral,
+  messenger,
+} from "../../public/assets";
 
 export const navLinks = [
   {
@@ -55,23 +53,21 @@ const services = [
   },
   {
     title: "UI/UX Designer",
-    icon: creator,
+    icon: designer,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Three JS",
+    icon: threejs,
   },
+
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Sass",
+    icon: sass,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -97,117 +93,65 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "C#",
+    icon: csharp,
   },
   {
-    name: "git",
+    name: ".NET",
+    icon: dotnet,
+  },
+  {
+    name: "Git",
     icon: git,
+  },
+  {
+    name: "GitHub",
+    icon: github,
   },
   {
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Freelance Shopify Template Development",
+    company_name: "Independent",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a Store for the client with a Theme that fit the rest of the website",
+      "Worked with client on developing a Shopify Store template that fits the theme of his website using Liquid templating language",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Retail Associate",
+    company_name: "Ross Stores",
+    icon: ross,
+    iconBg: "#383E56",
+    date: "December 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked in stockroom",
+      "Stocked merchandise",
+      "Assisted customers",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Medium Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A clone of the Medium website, where users can create and share articles, and follow other users to read their articles.",
     tags: [
       {
-        name: "react",
+        name: "Next.JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Sanity",
         color: "green-text-gradient",
       },
       {
@@ -215,51 +159,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: medium,
+    source_code_link: "https://github.com/Felopater-Melika/medium-clone",
   },
   {
-    name: "Job IT",
+    name: "Messenger Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of Messenger website That allows users to chat with each other in real time.",
     tags: [
       {
-        name: "react",
+        name: "Next.JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redis",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: messenger,
+    source_code_link: "https://github.com/Felopater-Melika/messenger-clone",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Astral",
+    description: "The one and only website to buy planets from.",
     tags: [
       {
-        name: "nextjs",
+        name: "Next.JS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Shopify",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: astral,
+    source_code_link: "https://github.com/Felopater-Melika/astral99",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

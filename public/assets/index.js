@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+import logo from "./../logo.webp";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import designer from "./designer.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./tech/github-original.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,23 +20,33 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python-original.svg";
+import sass from "./tech/sass-original.svg";
+import dotnet from "./tech/dot-net-original.svg";
+import express from "./tech/express-original.svg";
+import csharp from "./tech/csharp-original.svg";
 
-import meta from "./company/meta.png";
+import ross from "./company/ross.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import medium from "./medium.png";
+import messenger from "./messenger.png";
+import astral from "./astral.png";
 export {
   logo,
+  astral,
+  messenger,
+  medium,
+  express,
+  sass,
+  csharp,
+  dotnet,
   backend,
-  creator,
+  designer,
   mobile,
   web,
   github,
+  python,
   menu,
   close,
   css,
@@ -52,11 +62,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ross,
 };

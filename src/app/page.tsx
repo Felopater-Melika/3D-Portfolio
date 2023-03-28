@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
+import Head from "next/head";
 import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   StarsCanvas,
@@ -11,11 +10,12 @@ import {
   Works,
 } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
-
 const Home = () => {
   return (
     <div className="relative z-0 bg-primary">
+      <Head>
+        <link rel="shortcut icon" href="./../../public/favicon.ico" />
+      </Head>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
@@ -24,7 +24,6 @@ const Home = () => {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />
