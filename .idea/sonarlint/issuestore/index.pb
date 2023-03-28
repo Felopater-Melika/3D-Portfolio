@@ -14,8 +14,6 @@ S
 #src/components/canvas/Computers.tsx,9\d\9d95ffa4f5f7c303799d5ede3f4e26511d381c83
 N
 src/components/canvas/index.ts,1\0\10145883600567763cb73f4b3c3a91ef8ba7d038
-J
-src/components/Contact.tsx,a\b\ab52fae08b4e9fc555df84a497218d62cdb7d115
 I
 src/components/Loader.tsx,e\4\e4149f7900dd42ccfba64bdb2f42cc2aceb6099d
 M
@@ -32,3 +30,16 @@ G
 src/components/index.ts,0\b\0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
 C
 src/app/globals.css,d\a\da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
+G
+src/components/Tech.tsx,0\0\00f1cc85d893f1f5032e7641f3fdb0017a2b7e0d
+F
+src/constants/index.ts,c\4\c474d60acef81c229fcc1ee87758ef546a37ea82
+G
+src/components/Hero.tsx,b\e\be1b9e50b19cef723a96ac2f8eaeb684a57bd2eb
+I
+src/components/Navbar.jsx,d\1\d1eb1e252fd507134cfc95e08757d087da9b650a
+B
+src/app/layout.tsx,c\f\cfb47de6ae0cae626eed46461300112ef521d977
+:
+
+.env.local,1\f\1fa30fea3e9ae270a3c38a6113a3689d8987d108

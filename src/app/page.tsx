@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
 } from "@/components";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Works />
       <div className="relative z-0">
         <Contact />
+        <Footer />
         <StarsCanvas />
       </div>
     </div>
