@@ -5,6 +5,7 @@ import {
   web,
   typescript,
   reactjs,
+  freelancer,
   redux,
   tailwind,
   nodejs,
@@ -122,8 +123,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021",
     points: [
-      "Designed a Store for the client with a Theme that fit the rest of the website",
-      "Worked with client on developing a Shopify Store template that fits the theme of his website using Liquid templating language",
+      "Designed a store website with a specific theme of the original website.",
+      "Developed the Shopify template from scratch with reusable components.",
     ],
   },
   {
@@ -133,9 +134,23 @@ const experiences = [
     iconBg: "#383E56",
     date: "December 2021 - March 2022",
     points: [
-      "Worked in stockroom",
-      "Stocked merchandise",
-      "Assisted customers",
+      "Helped customers complete purchases, locate items, and join reward programs.",
+      "Stocked merchandise, clearly labeling items, and arranging according to size or color.",
+      "Answered questions about store policies and addressed customer concerns.",
+      "Refunded payments for returned items, processed exchanges, and offered store credit to achieve customer satisfaction.",
+    ],
+  },
+  {
+    title: "Freelance Web Developer",
+    company_name: "Freelancer.com",
+    icon: freelancer,
+    iconBg: "#383E56",
+    date: "February 2023 - Present",
+    points: [
+      "Work with clients to define project requirements and deliver customized web development solutions for frontend, backend, and full stack projects.",
+      "Utilize diverse technologies such as HTML, CSS, SASS, TailwindCSS, JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, C#, ASP.NET, Python, and MongoDB to create engaging web applications.",
+      "Ensure timely and within-budget delivery of high-quality projects, consistently meeting or exceeding client expectations.",
+      "Continuously update skills and knowledge to stay current with industry trends and best practices.",
     ],
   },
 ];

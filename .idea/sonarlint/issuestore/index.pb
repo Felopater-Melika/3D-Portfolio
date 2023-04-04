@@ -32,10 +32,6 @@ C
 src/app/globals.css,d\a\da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
 G
 src/components/Tech.tsx,0\0\00f1cc85d893f1f5032e7641f3fdb0017a2b7e0d
-F
-src/constants/index.ts,c\4\c474d60acef81c229fcc1ee87758ef546a37ea82
-G
-src/components/Hero.tsx,b\e\be1b9e50b19cef723a96ac2f8eaeb684a57bd2eb
 I
 src/components/Navbar.jsx,d\1\d1eb1e252fd507134cfc95e08757d087da9b650a
 B
@@ -43,3 +39,5 @@ B
 :
 
 .env.local,1\f\1fa30fea3e9ae270a3c38a6113a3689d8987d108
+H
+src/components/Works.tsx,5\8\588fd85347c566bc2710038a8b7cca5939bf5927

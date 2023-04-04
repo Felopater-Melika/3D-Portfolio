@@ -63,13 +63,14 @@ const About = () => {
         in high school, where I taught myself programming just to try a new
         thing and this is how I discovered my passion. My dedication to learning
         and my ability to pick up new concepts quickly have allowed me to
-        complete various personal projects and two successful freelance jobs. As
-        a self-taught developer, I take pride in being efficient, responsible,
-        and always eager to enhance my skills. I genuinely believe that my love
-        for development goes beyond just a career—it&apos;s also my hobby. Feel
-        free to browse my portfolio to see the projects I&apos;ve worked on and
-        get a glimpse of my capabilities. If you&apos;re interested in
-        collaborating or have any questions, don&apos;t hesitate to reach out!
+        complete various personal projects and three successful freelance jobs.
+        As a self-taught developer, I take pride in being efficient,
+        responsible, and always eager to enhance my skills. I genuinely believe
+        that my love for development goes beyond just a career—it&apos;s also my
+        hobby. Feel free to browse my portfolio to see the projects I&apos;ve
+        worked on and get a glimpse of my capabilities. If you&apos;re
+        interested in collaborating or have any questions, don&apos;t hesitate
+        to reach out!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

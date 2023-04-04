@@ -28,12 +28,14 @@ import csharp from "./tech/csharp-original.svg";
 
 import ross from "./company/ross.png";
 import shopify from "./company/shopify.png";
+import freelancer from "./company/freelancer.jpeg";
 
 import medium from "./medium.png";
 import messenger from "./messenger.png";
 import astral from "./astral.png";
 export {
   logo,
+  freelancer,
   astral,
   messenger,
   medium,
