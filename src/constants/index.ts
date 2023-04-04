@@ -1,5 +1,6 @@
 import {
   mobile,
+  linkedin,
   backend,
   designer,
   web,
@@ -220,4 +221,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const socialLinks = [
+  {
+    name: "Github",
+    icon: github,
+    link: "https://github.com/Felopater-Melika",
+  },
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/felopater-melika/",
+  },
+  {
+    name: "freelancer",
+    icon: freelancer,
+    link: "https://freelancer.com/u/felopaterM",
+  },
+];
+
+export { services, technologies, experiences, projects, socialLinks };
