@@ -30,7 +30,7 @@ import csharp from "./tech/csharp-original.svg";
 import ross from "./company/ross.png";
 import shopify from "./company/shopify.png";
 import freelancer from "./company/freelancer-logo.png";
-import linkedin from "./company/linkedin.png";
+import linkedin from "./company/Linkedin.png";
 import twitter from "./company/twitter.png";
 
 import medium from "./medium.png";
