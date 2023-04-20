@@ -12,13 +12,15 @@ import {
   nodejs,
   mongodb,
   git,
+  github,
   figma,
+  twitter,
   ross,
   shopify,
   threejs,
   medium,
   dotnet,
-  github,
+  githubTech,
   csharp,
   sass,
   astral,
@@ -108,7 +110,7 @@ const technologies = [
   },
   {
     name: "GitHub",
-    icon: github,
+    icon: githubTech,
   },
   {
     name: "figma",
@@ -226,16 +228,25 @@ const socialLinks = [
     name: "Github",
     icon: github,
     link: "https://github.com/Felopater-Melika",
+    index: 0,
   },
   {
     name: "LinkedIn",
     icon: linkedin,
     link: "https://www.linkedin.com/in/felopater-melika/",
+    index: 1,
   },
   {
     name: "freelancer",
     icon: freelancer,
     link: "https://freelancer.com/u/felopaterM",
+    index: 2,
+  },
+  {
+    name: "Twitter",
+    icon: twitter,
+    link: "https://twitter.com/felopater-melika",
+    index: 3,
   },
 ];
 

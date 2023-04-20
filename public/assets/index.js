@@ -1,12 +1,13 @@
-import logo from "./../logo.webp";
+import logo from "./logo.webp";
 import backend from "./backend.png";
 import designer from "./designer.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./tech/github-original.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import github from "./github.png";
 
+import githubTech from "./tech/github-original.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -28,12 +29,14 @@ import csharp from "./tech/csharp-original.svg";
 
 import ross from "./company/ross.png";
 import shopify from "./company/shopify.png";
-import freelancer from "./company/freelancer.jpeg";
+import freelancer from "./company/freelancer-logo.png";
 import linkedin from "./company/linkedin.png";
+import twitter from "./company/twitter.png";
 
 import medium from "./medium.png";
 import messenger from "./messenger.png";
 import astral from "./astral.png";
+
 export {
   logo,
   freelancer,
@@ -47,6 +50,7 @@ export {
   backend,
   designer,
   mobile,
+  githubTech,
   web,
   github,
   python,
@@ -63,6 +67,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  twitter,
   typescript,
   linkedin,
   threejs,

@@ -5,11 +5,40 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "@/styles";
-import { BallCanvas, EarthCanvas } from "./canvas";
+import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "@/utils/motion";
+import { fadeIn, slideIn } from "@/utils/motion";
 import { socialLinks } from "@/constants";
 import Link from "next/link";
+import Image from "next/image";
+// @ts-ignore
+import Tilt from "react-tilt";
+
+export const ServiceCard = ({ link, name, icon, index }: any) => (
+  <Tilt className="xs:w-[250px] w-full">
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+    >
+      <div
+        // options={{
+        //   max: 45,
+        //   scale: 1,
+        //   speed: 450,
+        // }}
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+      >
+        <Image
+          src={icon}
+          alt="social-icon"
+          className="w-16 h-16 object-contain"
+        />
+
+        <h3 className="text-white text-[20px] font-bold text-center">{name}</h3>
+      </div>
+    </motion.div>
+  </Tilt>
+);
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -138,13 +167,24 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="flex flex-row flex-wrap mt-10 justify-center gap-10"
       >
-        {socialLinks.map((social) => (
-          <div className="w-28 h-28" key={social.name}>
-            <Link href={social.link}>
-              <BallCanvas icon={social.icon.src} />
+        {/*{socialLinks.map((social) => (*/}
+        {/*  <div className="w-28 h-28" key={social.name}>*/}
+        {/*    <Link href={social.link}>*/}
+        {/*      <BallCanvas icon={social.icon.src} />*/}
+        {/*    </Link>*/}
+        {/*  </div>*/}
+        {/*))}*/}
+        <div className="mt-20 flex flex-wrap gap-10">
+          {socialLinks.map((social, index) => (
+            <Link href={social.link} key={social.name}>
+              <ServiceCard
+                index={index}
+                name={social.name}
+                icon={social.icon}
+              />
             </Link>
-          </div>
-        ))}
+          ))}
+        </div>
       </motion.div>
     </div>
   );
