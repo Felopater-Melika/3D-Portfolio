@@ -6,6 +6,8 @@ import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import github from "./github.png";
+import iweb from "./iweb.png";
+import img from "./img.png";
 
 import githubTech from "./tech/github-original.svg";
 import css from "./tech/css.png";
@@ -26,51 +28,67 @@ import sass from "./tech/sass-original.svg";
 import dotnet from "./tech/dot-net-original.svg";
 import express from "./tech/express-original.svg";
 import csharp from "./tech/csharp-original.svg";
+import postgres from "./tech/postgresql-original.svg";
+import next from "./tech/nextjs-line.svg";
+import nest from "./tech/nestjs-plain.svg";
+import expo from "./tech/logo-type-a.png";
 
 import ross from "./company/ross.png";
 import shopify from "./company/shopify.png";
 import freelancer from "./company/freelancer-logo.png";
 import linkedin from "./linkedin.png";
-import twitter from "./company/twitter.png";
+import X from "./company/X.png";
 
 import medium from "./medium.png";
 import messenger from "./messenger.png";
 import astral from "./astral.png";
+import rainAlarm from "./rainAlarm.png";
+import astralStore from "./astralStore.png";
+import astralChat from "./astralChat.jpg";
 
 export {
-  logo,
-  freelancer,
-  astral,
-  messenger,
-  medium,
-  express,
-  sass,
-  csharp,
-  dotnet,
-  backend,
-  designer,
-  mobile,
-  githubTech,
-  web,
-  github,
-  python,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  twitter,
-  typescript,
-  linkedin,
-  threejs,
-  shopify,
-  ross,
+    logo,
+    freelancer,
+    astral,
+    messenger,
+    medium,
+    express,
+    sass,
+    csharp,
+    dotnet,
+    backend,
+    designer,
+    mobile,
+    githubTech,
+    web,
+    github,
+    python,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    X,
+    typescript,
+    linkedin,
+    threejs,
+    shopify,
+    ross,
+    rainAlarm,
+    astralStore,
+    astralChat,
+    iweb,
+    img,
+    postgres,
+    next,
+    nest,
+    expo,
 };
