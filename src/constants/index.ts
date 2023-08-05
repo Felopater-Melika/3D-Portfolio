@@ -197,9 +197,9 @@ const projects = [
         link: "https://medium-clone-felopater.vercel.app/",
     },
     {
-        name: "Messenger Clone",
+        name: "Chat ROom",
         description:
-            "A clone of Messenger website That allows users to chat with each other in real time.",
+            "A chat room with real-time messaging.",
         tags: [
             {
                 name: "Next.JS",
@@ -216,6 +216,7 @@ const projects = [
         ],
         image: messenger,
         source_code_link: "https://github.com/Felopater-Melika/messenger-clone",
+        link: "https://felopater-chatroom.vercel.app/",
     },
     {
         name: "Astral",
