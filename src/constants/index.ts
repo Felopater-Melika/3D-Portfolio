@@ -63,10 +63,10 @@ const services = [
 ];
 
 const technologies = [
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     // {
     //     name: "Sass",
     //     icon: sass,
@@ -83,10 +83,10 @@ const technologies = [
         name: "Redux Toolkit",
         icon: redux,
     },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     // {
     //     name: "Node JS",
     //     icon: nodejs,
@@ -197,7 +197,7 @@ const projects = [
         link: "https://medium-clone-felopater.vercel.app/",
     },
     {
-        name: "Chat ROom",
+        name: "Chat Room",
         description:
             "A chat room with real-time messaging.",
         tags: [
@@ -218,29 +218,29 @@ const projects = [
         source_code_link: "https://github.com/Felopater-Melika/messenger-clone",
         link: "https://felopater-chatroom.vercel.app/",
     },
-    // {
-    //     name: "Astral",
-    //     description: "The one and only website to buy Earth.",
-    //     tags: [
-    //         {
-    //             name: "Next.JS",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "Shopify",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "tailwind",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: astral,
-    //     source_code_link: "https://github.com/Felopater-Melika/astral99",
-    //     link: "https://astral99.vercel.app/"
-    // },
     {
-        name: "Astral Store",
+        name: "Astral Store V1",
+        description: "The one and only website to buy Earth.",
+        tags: [
+            {
+                name: "Next.JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Shopify",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: astral,
+        source_code_link: "https://github.com/Felopater-Melika/astral99",
+        link: "https://astral99.vercel.app/"
+    },
+    {
+        name: "Astral Store V2",
         description: "A store for all things celestial.",
         tags: [
             {
