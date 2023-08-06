@@ -24,10 +24,6 @@ G
 src/components/index.ts,0\b\0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
 C
 src/app/globals.css,d\a\da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
-G
-src/components/Hero.tsx,b\e\be1b9e50b19cef723a96ac2f8eaeb684a57bd2eb
-S
-#src/components/canvas/Computers.tsx,9\d\9d95ffa4f5f7c303799d5ede3f4e26511d381c83
 I
 src/components/Navbar.jsx,d\1\d1eb1e252fd507134cfc95e08757d087da9b650a
 9
