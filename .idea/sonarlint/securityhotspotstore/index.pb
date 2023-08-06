@@ -18,8 +18,6 @@ C
 src/utils/motion.ts,0\a\0aaa3066216f9c9e4b65f786ddd37bc9f73f9174
 =
 src/styles.ts,0\8\083501fe3510d5666328261cc97f2a13c618ca22
-N
-src/components/canvas/Ball.tsx,b\9\b93e7bab16451972ce3898e9227a841cc0c1a6a6
 G
 src/components/index.ts,0\b\0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
 C
