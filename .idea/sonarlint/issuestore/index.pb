@@ -30,9 +30,6 @@ J
 src/hoc/SectionWrapper.tsx,3/c/3cc0ebf993777fccac2f5538f76d9d7003bfd107
 @
 src/hoc/index.ts,4/b/4b1a4698eaccc4ca67583a32bdd7ea3b4795222b
-:
-
-.env.local,1/f/1fa30fea3e9ae270a3c38a6113a3689d8987d108
 F
 public/assets/logo.svg,d/c/dc407a4b77b8d9e2859c683fd88c0e6db2dadeb1
 H
