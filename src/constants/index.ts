@@ -319,13 +319,13 @@ const socialLinks = [
         icon: freelancer,
         link: "https://freelancer.com/u/felopaterM",
         index: 2,
-    },
-    {
-        name: "X",
-        icon: X,
-        link: "https://x.com/FelopaterMelika",
-        index: 3,
-    },
+    }
+    // {
+    //     name: "X",
+    //     icon: X,
+    //     link: "https://x.com/FelopaterMelika",
+    //     index: 3,
+    // },
 ];
 
 export {services, technologies, experiences, projects, socialLinks};
