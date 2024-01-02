@@ -19,11 +19,11 @@ C
 =
 src/styles.ts,0\8\083501fe3510d5666328261cc97f2a13c618ca22
 G
-src/components/index.ts,0\b\0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
+src/components/index.ts,0/b/0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
 C
 src/app/globals.css,d\a\da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
 I
-src/components/Navbar.jsx,d\1\d1eb1e252fd507134cfc95e08757d087da9b650a
+src/components/Navbar.jsx,d/1/d1eb1e252fd507134cfc95e08757d087da9b650a
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 J
@@ -40,17 +40,17 @@ M
 src/components/Experience.tsx,6/1/615a074b274a011157a872e37af2e4e9fb8df01f
 B
 tailwind.config.js,0/9/0918cbb76f2c44f223706cec9d31a32cd1177ce4
-S
-#public/assets/tech/nestjs-plain.svg,4/9/4980d0579f2080a9af2802f8a323a06c86ce6a01
-R
-"public/assets/tech/nextjs-line.svg,0/d/0d66ea95de9f2cd182ebd5de4cfe26f9e7eacf0b
-Z
-*public/assets/tech/postgresql-original.svg,c/8/c8ddb59d4fbb8bdd101d3143da323eb0f9549ece
 F
 public/assets/index.js,7/6/76f954141b2be03270586a243565e0f5c00a9a5b
 G
 src/components/Tech.tsx,0/0/00f1cc85d893f1f5032e7641f3fdb0017a2b7e0d
-R
-"public/assets/tech/logo-type-b.svg,9/5/95b58c1e17a1cdf471d1f47f10ec0c45da33224d
 H
 src/components/Works.tsx,5/8/588fd85347c566bc2710038a8b7cca5939bf5927
+F
+public/assets/menu.svg,2/9/29afea6688281df1c3585ab582e7ab7464eb6666
+F
+src/constants/index.ts,c/4/c474d60acef81c229fcc1ee87758ef546a37ea82
+G
+src/components/Hero.tsx,b/e/be1b9e50b19cef723a96ac2f8eaeb684a57bd2eb
+I
+src/components/Footer.tsx,6/a/6a1906fbef47b21e13258a3accfe644e256f3344

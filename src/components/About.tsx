@@ -73,7 +73,7 @@ const About = () => {
         to reach out!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-between">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

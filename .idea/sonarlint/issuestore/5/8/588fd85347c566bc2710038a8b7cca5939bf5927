@@ -1,3 +1,7 @@
 
-Gtypescript:S1128"$Remove this unused import of 'iweb'.(Å°—­8ûµºœ1
+Gtypescript:S1128"$Remove this unused import of 'iweb'.(Å°—­8®ºâ¹Ì1
+ëtypescript:S68482"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(ëÛÿ²şÿÿÿÿ8°ºâ¹Ì1
+‡typescript:S10822"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ëÛÿ²şÿÿÿÿ8±ºâ¹Ì1
+ëtypescript:S6848?"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿ8²ºâ¹Ì1
+‡typescript:S1082?"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿ8´ºâ¹Ì1
 Ftypescript:S6479y"Do not use Array index in keys(ç¶Û±ıÿÿÿÿ8Ù›”œ1
